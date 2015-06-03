@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getIndestructable()
+comment1.params=duration
+comment1.target=void\ setIndestructable(int)
+comment2.params=
+comment2.target=int\ getSpeed()
+comment3.params=
+comment3.target=void\ beShot()
+comment4.params=that
+comment4.target=void\ crashAsteroid(ABCAsteroid)
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\n\ Act\ -\ do\ whatever\ the\ ABSAsteroid\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment6.params=
+comment6.target=void\ endTurn()
+numComments=7

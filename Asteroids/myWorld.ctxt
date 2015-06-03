@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getScore()
+comment1.params=
+comment1.target=void\ increaseScore()
+comment2.params=
+comment2.target=void\ createPowerUp()
+comment3.params=
+comment3.target=void\ createSmallAsteroid()
+comment4.params=
+comment4.target=void\ createBigAsteroid()
+comment5.params=
+comment5.target=myWorld()
+comment5.text=\n\ Constructor\ for\ objects\ of\ class\ myWorld.\n\ \n
+comment6.params=
+comment6.target=void\ act()
+numComments=7

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=angle
+comment0.target=MyActor\ myTurn(int)
+comment1.params=distance
+comment1.target=MyActor\ myMove(int)
+numComments=2
