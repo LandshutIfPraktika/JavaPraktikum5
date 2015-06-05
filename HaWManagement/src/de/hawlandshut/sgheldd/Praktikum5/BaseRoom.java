@@ -8,7 +8,10 @@ public abstract class BaseRoom implements Room {
     private final String address;
     private final String number;
 
-    public BaseRoom(String address, String number){
+    public BaseRoom(String address, String number) throws NullPointerException{
+        if (address == null || number == null){
+            throw new NullPointerException();
+        }
         this.address=address;
         this.number=number;
     }

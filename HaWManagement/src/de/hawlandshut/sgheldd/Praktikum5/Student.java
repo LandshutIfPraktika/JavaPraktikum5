@@ -7,8 +7,11 @@ public class Student extends Person {
     private final String registrationNumber;
     private final String majorSubject;
 
-    public Student( String registrationNumber, String majorSubject, String name, String address, String dateOfBirth) {
+    public Student( String registrationNumber, String majorSubject, String name, String address, String dateOfBirth) throws  NullPointerException{
         super(name, address, dateOfBirth);
+        if (registrationNumber == null || majorSubject == null){
+            throw new NullPointerException();
+        }
         this.registrationNumber = registrationNumber;
         this.majorSubject = majorSubject;
     }

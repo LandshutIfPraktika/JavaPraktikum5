@@ -6,11 +6,15 @@ package de.hawlandshut.sgheldd.Praktikum5;
  * Created by s-gheldd on 5/27/15.
  */
 public abstract class Person {
+
     private final String name;
     private final String dateOfBirth;
     private String address;
 
-    public Person(String name, String address, String dateOfBirth){
+    public Person(String name, String address, String dateOfBirth) throws NullPointerException{
+        if (name == null || address == null || dateOfBirth == null){
+            throw new NullPointerException();
+        }
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.address = address;

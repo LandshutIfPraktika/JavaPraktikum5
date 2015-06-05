@@ -10,6 +10,9 @@ public class Professor extends Person {
 
     Professor (String title, boolean dean, String name, String address, String dateOfBirth) throws Exception{
         super(name, dateOfBirth, address);
+        if (title == null){
+            throw new NullPointerException();
+        }
         this.title = title;
         if (deanIsSet && dean) {
             throw new Exception("Only one dean allowed");

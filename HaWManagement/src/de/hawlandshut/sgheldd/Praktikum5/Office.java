@@ -8,8 +8,11 @@ public class Office extends BaseRoom implements Room{
 
     private Professor owner;
 
-    public Office(Professor owner, double size, String address, String number){
+    public Office(Professor owner, double size, String address, String number) throws NullPointerException{
         super(address,number);
+        if (owner == null){
+            throw new NullPointerException();
+        }
 
         this.owner = owner;
         this.size = size;
